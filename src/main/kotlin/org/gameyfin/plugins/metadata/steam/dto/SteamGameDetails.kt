@@ -1,8 +1,8 @@
-package de.grimsi.gameyfinplugins.steam.dto
+package org.gameyfin.plugins.metadata.steam.dto
 
-import de.grimsi.gameyfinplugins.steam.util.SteamDateSerializer
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
+import org.gameyfin.plugins.metadata.steam.util.SteamDateSerializer
 import java.time.Instant
 
 @Serializable

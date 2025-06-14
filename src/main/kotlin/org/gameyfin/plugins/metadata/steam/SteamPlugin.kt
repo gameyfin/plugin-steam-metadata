@@ -1,12 +1,5 @@
-package de.grimsi.gameyfinplugins.steam
+package org.gameyfin.plugins.metadata.steam
 
-import de.grimsi.gameyfin.pluginapi.core.wrapper.GameyfinPlugin
-import de.grimsi.gameyfin.pluginapi.gamemetadata.GameMetadata
-import de.grimsi.gameyfin.pluginapi.gamemetadata.GameMetadataProvider
-import de.grimsi.gameyfinplugins.steam.dto.SteamDetailsResultWrapper
-import de.grimsi.gameyfinplugins.steam.dto.SteamGame
-import de.grimsi.gameyfinplugins.steam.dto.SteamSearchResult
-import de.grimsi.gameyfinplugins.steam.mapper.Mapper
 import io.ktor.client.*
 import io.ktor.client.call.*
 import io.ktor.client.engine.cio.*
@@ -19,6 +12,13 @@ import io.ktor.serialization.kotlinx.json.*
 import kotlinx.coroutines.runBlocking
 import kotlinx.serialization.json.Json
 import me.xdrop.fuzzywuzzy.FuzzySearch
+import org.gameyfin.pluginapi.core.wrapper.GameyfinPlugin
+import org.gameyfin.pluginapi.gamemetadata.GameMetadata
+import org.gameyfin.pluginapi.gamemetadata.GameMetadataProvider
+import org.gameyfin.plugins.metadata.steam.dto.SteamDetailsResultWrapper
+import org.gameyfin.plugins.metadata.steam.dto.SteamGame
+import org.gameyfin.plugins.metadata.steam.dto.SteamSearchResult
+import org.gameyfin.plugins.metadata.steam.mapper.Mapper
 import org.pf4j.Extension
 import org.pf4j.PluginWrapper
 import org.slf4j.LoggerFactory

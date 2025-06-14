@@ -1,4 +1,4 @@
-package de.grimsi.gameyfinplugins.steam.util
+package org.gameyfin.plugins.metadata.steam.util
 
 import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.KSerializer

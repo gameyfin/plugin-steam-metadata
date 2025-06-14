@@ -1,4 +1,4 @@
-package de.grimsi.gameyfinplugins.steam.dto
+package org.gameyfin.plugins.metadata.steam.dto
 
 import kotlinx.serialization.Serializable
 
